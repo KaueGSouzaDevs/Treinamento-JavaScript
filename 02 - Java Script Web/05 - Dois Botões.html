@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dois Botões</title>
+</head>
+<body>
+    
+    <button id="vermelho">Vermelho</button>
+    <button id="azul">Azul</button>
+    
+    
+    <script>
+
+        const botaoVermelho = document.getElementById('vermelho');
+        botaoVermelho.addEventListener('click',function(){
+            document.body.style.background ='red'
+        })
+        
+        const botaoAzul = document.getElementById('azul');
+        botaoAzul.addEventListener('click',function(){
+            document.body.style.background ='blue'
+        })
+
+
+    </script>
+
+</body>
+</html>

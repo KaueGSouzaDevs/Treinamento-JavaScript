@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterão de fundo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <button id="botao1">Fundo 1</button>
+    <button id="botao2">Fundo 2</button>
+
+
+
+    <script>
+
+        document.getElementById('botao1').addEventListener('click', function(){
+            document.body.classList.remove('fundo2');
+            document.body.classList.add('fundo1');
+        });
+        document.getElementById('botao2').addEventListener('click', function(){
+            document.body.classList.remove('findo1');
+            document.body.classList.add('fundo2');
+        });
+
+    </script>
+
+</body>
+</html>

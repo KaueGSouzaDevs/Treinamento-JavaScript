@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessando Elementos</title>
+</head>
+<body>
+    
+    <h1 id="titulo">Titulo padrão</h1>
+    <input type="text" id="campo-texto" value="Exemplo"/>
+    <input type="text" id="campo-texto2" value="NAN"/>
+    
+    <div>Conteudo da div</div>
+    <div>Conteudo da div 2</div>
+    <div class="classe3">Conteudo da div 3</div>
+    <div class="classe3">Nova div 3</div>
+    
+    
+    <script>
+
+        // Buscando elemento por Id
+        const titulo = document.getElementById('titulo');
+        console.log(titulo.textContent);
+
+        const campoTexto = document.getElementById('campo-texto');
+        console.log(campoTexto.value);
+
+        const campoTexto2 = document.getElementById('campo-texto2');
+        campoTexto2.value = 'Texto alterado';
+
+
+
+        // Buscando elementos por querySelector
+        const div = document.querySelector('div');
+        console.log(div.textContent);
+
+        div.innerHTML = '<h2>Novo conteudo da div</h2>';
+        div.style.color = 'red';
+
+        const divs = document.querySelectorAll('div');
+        console.log(divs);
+
+
+
+        // Buscando elemento por Class
+        const div3 = document.getElementsByClassName('classe3');
+        console.log(div3)
+
+        const divTag = document.getElementsByTagName('div');
+        console.log(divTag)
+
+    </script>
+
+</body>
+</html>
