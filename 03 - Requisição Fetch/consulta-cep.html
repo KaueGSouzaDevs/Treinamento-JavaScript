@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+</head>
+<body>
+    <h1>Consulta de cep</h1>
+    <div class="cep-container">
+        Cep: <input type="text"  id="cep-input" placeholder="Digite o cep"><br/>
+        Logradouro: <input type="text" id="logradouro"><br/>
+        Bairro: <input type="text" id="bairro"><br/>
+        Cidade: <input type="text" id="localidade"><br/>
+        Estado: <input type="text" id="uf"><br/>
+    </div>
+    <Script>
+        document.getElementById('cep-input').addEventListener('blur', function(){
+            const cep = document.getElementById('cep-input').value;
+            fetch(`https://viacep.com.br/ws/${cep}/json/`)              //Faz a requisição da URL
+                .then(response => response.json())                      //Processando a resposta e convertendo para JSON
+                .then(data => {
+                    document.getElementById('logradouro').value = data.logradouro;
+                    document.getElementById('bairro').value = data.bairro;
+                    document.getElementById('localidade').value = data.localidade;
+                    document.getElementById('uf').value = data.uf;
+                })                                                      // Acessando ou exibindo os dados
+                .catch(error => console.log('Deu erro'+ error));        // Tratando erros
+        });
+    </Script>
+</body>
+</html>
