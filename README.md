@@ -1,48 +1,43 @@
 # Treinamento JavaScript
 
-Este repositório é dedicado aos estudos e práticas de **JavaScript**, juntamente com **HTML** e **CSS** para complementar os exercícios e projetos. O foco principal é desenvolver uma base sólida em JavaScript, abordando conceitos fundamentais e avançados.
+Bem-vindo ao repositório **Treinamento JavaScript**! Este repositório foi criado para estudos e práticas no desenvolvimento web, com foco em **JavaScript** e integração com **HTML** e **CSS**.
 
 ## Objetivo
 
-O objetivo deste repositório é registrar o aprendizado e a prática de JavaScript, desde os fundamentos até tópicos mais complexos. Além disso, inclui exemplos práticos e projetos para reforçar os conceitos aprendidos.
+O objetivo deste repositório é consolidar o aprendizado de JavaScript, abordando desde conceitos básicos até funcionalidades mais avançadas, juntamente com a criação de interfaces web utilizando HTML e CSS.
 
 ## Tópicos de Estudo
 
-Os principais tópicos abordados incluem:
+### **JavaScript**
+- **Fundamentos:**
+  - Sintaxe básica
+  - Declaração e manipulação de variáveis
+  - Tipos de dados
+  - Estruturas de controle (if/else, switch, loops)
+  - Funções
+- **Manipulação DOM:**
+  - Seleção de elementos
+  - Alteração de conteúdo e estilos
+  - Eventos e manipulação de interatividade
+- **ES6+ (Modern JavaScript):**
+  - Arrow functions
+  - Template literals
+  - Destructuring
+  - Promises e Async/Await
+  - Módulos
+- **Avançado:**
+  - Manipulação de APIs com Fetch
+  - Classes e Prototipagem
+  - Tratamento de erros
 
-### **Fundamentos de JavaScript**
-- Sintaxe básica
-- Tipos de dados e variáveis
-- Operadores e expressões
-- Estruturas de controle (if/else, switch, loops)
-- Funções e escopo
-- Manipulação de arrays e objetos
+### **HTML**
+- Estruturação de páginas
+- Uso de tags semânticas
+- Formulários e inputs
+- Tabelas e listas
 
-### **DOM e Manipulação de Eventos**
-- Seleção de elementos no DOM
-- Manipulação de atributos e estilos
-- Eventos e Event Listeners
-- Interatividade com JavaScript
-
-### **Conceitos Avançados de JavaScript**
-- Funções de callback
-- Promises e Async/Await
-- Manipulação de APIs (Fetch)
-- ES6+ (arrow functions, destructuring, modules, etc.)
-- Classes e Prototipagem
-- Manipulação de erros (try/catch)
-
-### **Projetos Práticos**
-- Calculadora simples
-- To-Do List (Lista de Tarefas)
-- Manipulação de APIs públicas (exemplo: consumo de APIs de clima ou filmes)
-- Jogos simples (exemplo: Jogo da Memória)
-
-### **HTML e CSS para Complemento**
-- Estruturação de layouts com HTML
-- Estilização básica e responsiva com CSS
-- Integração entre HTML, CSS e JavaScript
-
-## Estrutura do Repositório
-
-O repositório está organizado em pastas para facilitar a navegação e o acesso a tópicos e projetos específicos.
+### **CSS**
+- Estilização de páginas
+- Layout com Flexbox e Grid
+- Animações e transições
+- Media Queries para responsividade
